@@ -2,56 +2,51 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Zhin Abubakr', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Zhin Abubakr',
+  subtitle: 'Front End Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'Seasoned and independent Front End Developer with 1 year experience in the skill of programming to deliver an immersive ',
+  paragraphTwo:
+    'and engaging user experience through efficient website development, proactive feature optimization.',
+  paragraphThree: 'Very passionate about aesthetics and UI design.',
+  resume:
+    'https://docs.google.com/document/d/1-px7gWVdLa70YdYIm362Qeo8UGzAgLZnN9OXS-Rgv68/edit#heading=h.4egklwel34dj', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'Screenshot.png',
+    title: 'FindYours',
+    info:
+      '"FindYours" is a web application that helps people who have lost a valuable item to easily find it ',
+    info2: 'and to allow people who find things to share them on our platform.',
+    url: 'https://findyours.netlify.app/',
+    repo: 'https://github.com/ZhinAbubakr/find_yours', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'top-app.png',
+    title: 'Weather app',
+    info: 'Weather App is a web based Application ',
+    info2: 'which is there show weather data based on the location that the user wants',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/ZhinAbubakr/weather_app_js', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +54,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'zheen99abubakr@gmail.com',
 };
 
 // FOOTER DATA
@@ -73,22 +68,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/zhin-ahmad',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/zhin-abubakr-473910181/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ZhinAbubakr',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
