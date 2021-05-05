@@ -12,6 +12,20 @@ const Projects = () => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
+  // const [skils] = useState([
+  //   Java,
+  //   HTML,
+  //   CSS,
+  //   JS,
+  //   ReactJs,
+  //   C++,
+  //   VisualStudioCode,
+  //   Flutter,
+  //   Firebase,
+  //   Lravel,
+  //   SQL,
+  // ]);
+
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true);
@@ -25,7 +39,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <Container>
-        <div className="project-wrapper">
+        <div className="project-wrapper" style={{ marginBottom: 50 }}>
           <Title title="Projects" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
@@ -110,6 +124,114 @@ const Projects = () => {
               </Row>
             );
           })}
+        </div>
+        <div style={{ marginTop: 25, marginBottom: 45 }}>
+          <Title title="Skills" />
+          <section id="as-services">
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
+                  <div class="as-service-box mt-4">
+                    <img
+                      src="https://www.flaticon.com/svg/vstatic/svg/226/226777.svg?token=exp=1620241761~hmac=93cf612b75afc520337b4239c832ea6d"
+                      style={{ width: 70, height: 70 }}
+                    />
+                    <h3 class="mt-3">
+                      <b>JAVA</b>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
+                  <div class="as-service-box mt-4">
+                    <img
+                      src="https://www.flaticon.com/svg/vstatic/svg/174/174854.svg?token=exp=1620244595~hmac=a1efdf83bf5652ec45147c6ae0efef16"
+                      style={{ width: 70, height: 70 }}
+                    />
+                    <h3 class="mt-3">
+                      <b>HTML</b>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
+                  <div class="as-service-box mt-4">
+                    <img
+                      src="https://www.pngix.com/pngfile/big/193-1937198_image-result-for-css3-icon-css-logo-transparent.png"
+                      style={{ width: 70, height: 70 }}
+                    />
+                    <h3 class="mt-3">
+                      <b>CSS</b>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
+                  <div class="as-service-box mt-4">
+                    <img
+                      src="https://cdn.freelogovectors.net/wp-content/uploads/2020/11/javascript_logo.png"
+                      style={{ width: 70, height: 70 }}
+                    />
+                    <h3 class="mt-3">
+                      <b>JS</b>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
+                  <div class="as-service-box mt-4">
+                    <img
+                      src="https://sujanbyanjankar.com.np/wp-content/uploads/2020/05/1200px-Laravel.svg_.png"
+                      style={{ width: 70, height: 70 }}
+                    />
+                    <h3 class="mt-3">
+                      <b>LARAVEL</b>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
+                  <div class="as-service-box mt-4">
+                    <img
+                      src="https://www.pngkit.com/png/full/231-2316751_database-database-icon-png.png"
+                      style={{ width: 70, height: 70 }}
+                    />
+                    <h3 class="mt-3">
+                      <b>SQL</b>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
+                  <div class="as-service-box mt-4">
+                    <img
+                      src="https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png"
+                      style={{ width: 70, height: 70 }}
+                    />
+                    <h3 class="mt-3">
+                      <b>FIREBASE</b>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
+                  <div class="as-service-box mt-4">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                      style={{ width: 70, height: 70 }}
+                    />
+                    <h3 class="mt-3">
+                      <b>REACTJS</b>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
+                  <div class="as-service-box mt-4">
+                    <img
+                      src="https://320ryg19rh2bhqo6vqdmrneq-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/flutterlogo.png"
+                      style={{ width: 70, height: 70 }}
+                    />
+                    <h3 class="mt-3">
+                      <b>FLUTTER</b>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </Container>
     </section>

@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Zhin Abubakr',
-  subtitle: 'Front End Developer',
+  subtitle: 'Front End Web Developer',
   cta: '',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Seasoned and independent Front End Developer with 1 year experience in the skill of programming to deliver an immersive ',
+    'Seasoned and independent Front End Web Developer with 1 year experience in the skill of programming to deliver an immersive ',
   paragraphTwo:
     'and engaging user experience through efficient website development, proactive feature optimization.',
   paragraphThree: 'Very passionate about aesthetics and UI design.',
