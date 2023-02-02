@@ -133,7 +133,7 @@ const Projects = () => {
                 <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
                   <div class="as-service-box mt-4">
                     <img
-                      src="https://www.flaticon.com/svg/vstatic/svg/226/226777.svg?token=exp=1620241761~hmac=93cf612b75afc520337b4239c832ea6d"
+                      src="https://i.pinimg.com/originals/e9/94/61/e99461fdd5b3db8bdb3081d8acf5e524.png"
                       style={{ width: 70, height: 70 }}
                     />
                     <h3 class="mt-3">
@@ -144,7 +144,7 @@ const Projects = () => {
                 <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
                   <div class="as-service-box mt-4">
                     <img
-                      src="https://www.flaticon.com/svg/vstatic/svg/174/174854.svg?token=exp=1620244595~hmac=a1efdf83bf5652ec45147c6ae0efef16"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ZHz90ePPc5e1ue1FLrQ4Y6QL3aHQtGf5gA&usqp=CAU"
                       style={{ width: 70, height: 70 }}
                     />
                     <h3 class="mt-3">
@@ -155,7 +155,7 @@ const Projects = () => {
                 <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
                   <div class="as-service-box mt-4">
                     <img
-                      src="https://www.pngix.com/pngfile/big/193-1937198_image-result-for-css3-icon-css-logo-transparent.png"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZGM5Jpbl1RAxb3fvhRfbZzN8XyOot58Yskw&usqp=CAU"
                       style={{ width: 70, height: 70 }}
                     />
                     <h3 class="mt-3">
