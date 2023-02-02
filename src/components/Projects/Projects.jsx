@@ -177,11 +177,11 @@ const Projects = () => {
                 <div class="col-12 col-sm-6 col-md-4" style={{ marginBottom: 25 }}>
                   <div class="as-service-box mt-4">
                     <img
-                      src="https://sujanbyanjankar.com.np/wp-content/uploads/2020/05/1200px-Laravel.svg_.png"
+                      src="https://www.clipartmax.com/png/middle/89-894960_js-discord-bot-logo-node-js-and-react-js.png"
                       style={{ width: 70, height: 70 }}
                     />
                     <h3 class="mt-3">
-                      <b>LARAVEL</b>
+                      <b>Node Js</b>
                     </h3>
                   </div>
                 </div>
